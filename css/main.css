@@ -150,6 +150,10 @@ h1{
 }
 
 /* Gallery */
+.gallery-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
 
 /* Testimonials */
 .testimonial{
