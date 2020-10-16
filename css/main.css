@@ -1,0 +1,328 @@
+/* Specification */
+
+body{
+    /*background: #F6FCFF;*/
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    color: #010101;
+    background: url('../img/bg.png') no-repeat center top / cover;
+}
+
+.navbar{
+    display: flex;
+}
+
+.logo{
+    margin-left: 30px;
+    width: 180px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.btn{
+    background: #D57746;
+	color: #fff;
+	border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btn:hover{
+    color: black;
+}
+
+/* Header */
+
+.menu{
+    display: flex;
+    margin-left: 50px;
+}
+
+.nav-link{
+    color: #032943 !important; 
+}
+
+.nav-link:hover{
+    color: #0c72b6 !important; 
+}
+
+.nav-item{
+    font-family: 'Revelia', sans-serif;
+    font-size: 18px;
+    margin-left: 42px;
+}
+
+.carousel-img{
+    height: 88vh;
+}
+
+.carousel-caption{
+    margin-top: -100px;
+}
+
+.offer__btn {
+	width: 185px;
+	padding: 12px 0;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+/* Services */
+.title{
+    font-weight: 600;
+    font-size: 38px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #484244;
+}
+
+.service__img{
+    width: 370px;
+}
+
+.service{
+    margin-bottom: 30px;
+}
+
+.service__name{
+    margin-top: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.service__btn{
+	width: 140px;
+	padding: 6px 0px 9px;
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+/* About */
+.icons{
+    margin: 0 auto;
+}
+
+.icon-group{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icon-group__icon{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.icon4{
+    margin-bottom: 0;
+}
+
+.icon-group__text{
+    margin-top: 10px;
+    max-width: 260px;
+    text-align: center;
+}
+
+/* Gallery */
+
+/* Testimonials */
+.testimonial{
+    background: #DFD0BD;
+    border-radius: 20px;
+    padding: 54px 20px;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonial__text{
+    margin-bottom: 20px;
+    color: #050303;
+    font-size: 22px;
+}
+
+.testimonial__name{
+    font-weight: 700;
+}
+
+/* Contacts */
+.contacts__text{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.offer__text{
+    text-align: center;
+}
+
+.contacts_tel{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;;
+}
+
+.offer_last{
+    margin-bottom: 30px;
+}
+
+.contact{
+    margin-bottom: 20px !important;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: #484244;
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer_logo{
+    width: 200px;
+}
+
+.footer_text{
+    color: #DBD6D6;
+}
+
+/* Media queries */
+@media screen and (max-width: 1092px) {}
+
+@media screen and (max-width: 1050px) {}
+
+@media screen and (max-width: 991px) {
+    .logo{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .logo{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1{
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    .offer__text{
+        line-height: 30px;
+    }
+
+    .icon-group__icon{
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .icon-group__icon{
+        width: 30%
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 50px;
+        line-height: 58px;
+    }
+
+    .offer__text{
+        line-height: 26px;
+        font-size: 22px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+
+    .testimonial__text{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .offer__text{
+        line-height: 24px;
+        font-size: 21px;
+    }
+
+    .icon-group__text{
+        font-size: 18px;
+    }
+
+    .icon-group__icon{
+        width: 40%
+    }
+}
+
+@media screen and (max-width: 302px) {
+    .icon-group__text{
+        font-size: 16px;
+    }
+
+    .icon-group__icon{
+        width: 40%
+    }
+}
+
+@media screen and (max-width: 300px) {
+    h1{
+        font-size: 46px;
+        line-height: 56px;
+    }
+
+    .offer__text{
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .logo{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .logo{
+        width: 120px;
+        margin-left: 10px;
+    }
+}
+
+
