@@ -146,7 +146,7 @@ h1{
 .icon-group__text{
     margin-top: 10px;
     max-width: 260px;
-    text-align: center;
+    text-align: center !important;
 }
 
 /* Gallery */
